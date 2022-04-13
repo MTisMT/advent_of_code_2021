@@ -49,4 +49,4 @@ def play2(randoms, all_boards):
 score_1,called_rand, mark , num = play1(randoms, all_boards)
 print("Answer of part 1: ", score_1)
 score_2 = play2(randoms, all_boards)
-print("Answer of part 1: ", score_2)
+print("Answer of part 2: ", score_2)
