@@ -21,7 +21,7 @@ class board():
     def score(self,called):
         return int(called) * (np.sum((1-self.mark)*self.nums))
 
-with open("bingo.txt") as f:
+with open("day4.txt") as f:
     lines = [l.strip() for l in f]
 randoms = [int(n) for n in lines[0].split(',')]
 all_boards = []
